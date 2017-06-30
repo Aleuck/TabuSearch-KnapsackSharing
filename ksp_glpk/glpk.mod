@@ -1,20 +1,20 @@
-set O;
-/* objetos */
+param nOfGroups;
+param nOfObjects;
 
-param p{o in O};
-/* object's profit */
+param g{1..nOfGroups, 1..noOfObjects} binary;
+/* object is in group */
 
-param w{o in O};
-/* object's weight */
+param p{1..nOfObjects};
+/* objects' profit */
 
-param g{o in O};
-/* object's group */
+param w{1..nOfObjects};
+/* objects' weight */
 
 param C;
 /* knapsack's capacity */
 
-var s{o in O}, binary;
-/* solution (object o is in knapsack) */
+var sol{1..nOfObjects} binary;
+/* object is in solution */
 
-maximize min_lucro: min{o in O} p[o]*s[o];
+maximize min_lucro: min{g in 1..numOfGroups} sum{o in 1..numOfObjects} sol[o]*p[o]*g[g][o];
 s.t. capacidade: sum{o in O} w[o]*s[o] <= C;
