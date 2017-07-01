@@ -31,8 +31,8 @@ def main(argv):
 
     with open(outputfile, "w") as of:
         of.write('data;\n\n')
-        of.write('param nOfGroups :=' + str(g) + '\n')
-        of.write('param nOfObjects :=' + str(n) + '\n')
+        of.write('param nOfGroups :=' + str(g) + ';\n')
+        of.write('param nOfObjects :=' + str(n) + ';\n')
         of.write('param C := ' + str(c) + ';\n\n')
         
         of.write('/* groups */\n')

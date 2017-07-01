@@ -1,7 +1,7 @@
 data;
 
-param nOfGroups :=50
-param nOfObjects :=10000
+param nOfGroups :=50;
+param nOfObjects :=10000;
 param C := 126532;
 
 /* groups */

@@ -1,0 +1,10 @@
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/A02C.mod -o A02C.sol --tmlim 3600 --memlim 5000 --log A02C_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/A10.mod -o A10.sol --tmlim 3600 --memlim 5000 --log A10_log.txt 
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/A50.mod -o A50.sol --tmlim 3600 --memlim 5000 --log A50_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/B50.mod -o B50.sol --tmlim 3600 --memlim 5000 --log B50_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/C50.mod -o C50.sol --tmlim 3600 --memlim 5000 --log C50_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/E50.mod -o E50.sol --tmlim 3600 --memlim 5000 --log E50_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/F50.mod -o F50.sol --tmlim 3600 --memlim 5000 --log F50_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/HB150.mod -o HB150.sol --tmlim 3600 --memlim 5000 --log HB150_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/HB200.mod -o HB200.sol --tmlim 3600 --memlim 5000 --log HB200_log.txt
+glpsol -m ksp_glpk\glpk.mod -d ksp_glpk_instances/HB250.mod -o HB250.sol --tmlim 3600 --memlim 5000 --log HB250_log.txt

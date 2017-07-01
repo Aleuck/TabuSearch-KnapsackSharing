@@ -22,3 +22,4 @@ maximize min_profit: min_group_profit;
 
 s.t. capacity: sum{o in 1..nOfObjects} w[o]*s[o] <= C;
 s.t. min_group{j in 1..nOfGroups}: min_group_profit <= sum{o in 1..nOfObjects} g[j,o]*p[o]*s[o];
+end;
