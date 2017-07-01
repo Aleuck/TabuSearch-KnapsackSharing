@@ -1,7 +1,7 @@
 param nOfGroups;
 param nOfObjects;
 
-param g{1..nOfGroups, 1..noOfObjects} binary;
+param g{1..nOfGroups, 1..nOfObjects};
 /* object is in group */
 
 param p{1..nOfObjects};
@@ -13,8 +13,12 @@ param w{1..nOfObjects};
 param C;
 /* knapsack's capacity */
 
-var sol{1..nOfObjects} binary;
+var s{1..nOfObjects} binary;
 /* object is in solution */
 
-maximize min_lucro: min{g in 1..numOfGroups} sum{o in 1..numOfObjects} sol[o]*p[o]*g[g][o];
-s.t. capacidade: sum{o in O} w[o]*s[o] <= C;
+var min_group_profit integer, >= 0;
+
+maximize min_profit: min_group_profit;
+
+s.t. capacity: sum{o in 1..nOfObjects} w[o]*s[o] <= C;
+s.t. min_group{j in 1..nOfGroups}: min_group_profit <= sum{o in 1..nOfObjects} g[j,o]*p[o]*s[o];
