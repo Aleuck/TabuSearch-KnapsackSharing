@@ -1,4 +1,4 @@
-import sys, getopt, random, numpy, math
+import sys, getopt, random, numpy, math, time
 from queue import *
 
 
@@ -36,7 +36,7 @@ class KnapsackSharingTabuSearch:
         feasable = total_weigth <= self.instance.capacity
         idxMin = group_profit.argmin()
         return feasable, group_profit[idxMin], total_weigth
-    def _generateNeighbors(self, sol, res):
+    def _generateNeighbors(self, sol, res, entropy):
         local_tabu = set()
         max_neighbors = math.floor(math.pow(self.instance.numItens,1/2)*NBC)
         # elements_in = PriorityQueue();
@@ -48,15 +48,16 @@ class KnapsackSharingTabuSearch:
         #         elements_out.put((item[0]/item[1], i))
         neighbors = []
         for n in range(max_neighbors):
-            neighbors.append(self._generateNeighborsFlips(sol, res, local_tabu))
+            neighbors.append(self._generateNeighborsFlips(sol, res, local_tabu, entropy))
+        # for n in range(max_neighbors//4):
+        #     neighbors.append({random.randint(0,self.instance.numItens-1)})
         return neighbors
-    def _generateNeighborsFlips(self, sol, res, local_tabu):
-        num_flips_per_neighbors = math.floor(math.pow(self.instance.numItens,1/4))
+    def _generateNeighborsFlips(self, sol, res, local_tabu, num_flips_per_neighbors):
         flips = set()
         #for i in range(num_flips_per_neighbors):
         while len(flips) < num_flips_per_neighbors:
             flip = random.randint(0,self.instance.numItens-1)
-            if flip in flips:
+            if flip in local_tabu:
                 continue
             if flip in self.tabuset:
                 # print ("tabu hit")
@@ -83,7 +84,7 @@ class KnapsackSharingTabuSearch:
             # print (result)
             # print (previous_result)
             return True
-        elif (result[1] == previous_result[1]
+        if (result[1] == previous_result[1]
             and result[2] < previous_result[2]):
             return True
         return False
@@ -99,11 +100,12 @@ class KnapsackSharingTabuSearch:
         curSolutionResult = (True, 0, 0)
         self.tabu = []
         self.tabuset = set()
-        maxNonImpIterations = math.floor(math.pow(self.instance.numItens,1/2))
+        maxNonImpIterations = math.floor(math.pow(self.instance.numItens,1/2)*2)
         nonImprovingIterations = 0
-        max_tabu_size = math.floor(math.log(self.instance.numItens,4))
+        max_tabu_size = math.floor(math.pow(self.instance.numItens,1/2))
         while (nonImprovingIterations < maxNonImpIterations):
-            neighbors_flips = self._generateNeighbors(curSolution, curSolutionResult)
+            entropy = math.floor(math.log(self.instance.numItens,2+nonImprovingIterations))
+            neighbors_flips = self._generateNeighbors(curSolution, curSolutionResult, entropy)
             bestCandidate = None
             bestCandidate_result = None
             bestFlips = None
@@ -120,8 +122,9 @@ class KnapsackSharingTabuSearch:
                     bestCandidate_result = neighbor_result
                     bestFlips = flips
             for flip in bestFlips:
-                self.tabu.append(flip)
-                self.tabuset.add(flip)
+                if flip not in self.tabuset:
+                    self.tabu.append(flip)
+                    self.tabuset.add(flip)
             while len(self.tabu) > max_tabu_size:
                 rem = self.tabu.pop(0)
                 self.tabuset.remove(rem)
@@ -180,7 +183,10 @@ def main(argv):
         ksp.itens[i] = aux
 
     solver = KnapsackSharingTabuSearch(ksp)
+    t_start = time.time()
     solver.solve()
+    t_end = time.time() - t_start
+    print("%.0d" % (t_end))
     # Gerar solucao inicial
 
     #generate neighbors
