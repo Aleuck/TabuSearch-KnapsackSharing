@@ -2,3 +2,140 @@ seed = 4969299038551478486
 -n 0.043000 (NBC multiplier)
 -f 1.000000 (NBF multiplier)
 -i 0.040000 (NIT multiplier)
+num neighbors = 10
+maxNonImprovingIterations = 10
+n=62500, g=250, c=3125000
+Initial solution found (7445)
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124720
+new best: min_profit:   7445  weight: 3124575
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124575
+entropy: 10.000000
+current:  min_profit:   7445  weight: 3124575
+new best: min_profit:   7445  weight: 3124504
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124504
+entropy: 10.000000
+current:  min_profit:   7445  weight: 3124504
+new best: min_profit:   7445  weight: 3124485
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124485
+new best: min_profit:   7771  weight: 3124806
+entropy: 15.000000
+current:  min_profit:   7771  weight: 3124806
+new best: min_profit:   7771  weight: 3124547
+entropy: 15.000000
+current:  min_profit:   7771  weight: 3124547
+new best: min_profit:   7771  weight: 3124369
+entropy: 15.000000
+current:  min_profit:   7771  weight: 3124369
+new best: min_profit:   7801  weight: 3124932
+entropy: 15.000000
+current:  min_profit:   7801  weight: 3124932
+new best: min_profit:   7801  weight: 3124491
+entropy: 15.000000
+current:  min_profit:   7801  weight: 3124491
+entropy: 10.000000
+current:  min_profit:   7801  weight: 3124491
+entropy: 7.000000
+current:  min_profit:   7801  weight: 3124491
+new best: min_profit:   7801  weight: 3124370
+entropy: 15.000000
+current:  min_profit:   7801  weight: 3124370
+entropy: 10.000000
+current:  min_profit:   7801  weight: 3124370
+entropy: 7.000000
+current:  min_profit:   7801  weight: 3124370
+entropy: 6.000000
+current:  min_profit:   7801  weight: 3124370
+entropy: 6.000000
+current:  min_profit:   7801  weight: 3124370
+entropy: 5.000000
+current:  min_profit:   7801  weight: 3124370
+new best: min_profit:   7801  weight: 3124287
+entropy: 15.000000
+current:  min_profit:   7801  weight: 3124287
+entropy: 10.000000
+current:  min_profit:   7801  weight: 3124287
+entropy: 7.000000
+current:  min_profit:   7801  weight: 3124287
+entropy: 6.000000
+current:  min_profit:   7801  weight: 3124287
+entropy: 6.000000
+current:  min_profit:   7801  weight: 3124287
+entropy: 5.000000
+current:  min_profit:   7801  weight: 3124287
+new best: min_profit:   7874  weight: 3124741
+entropy: 15.000000
+current:  min_profit:   7874  weight: 3124741
+entropy: 10.000000
+current:  min_profit:   7874  weight: 3124741
+new best: min_profit:   7874  weight: 3124492
+entropy: 15.000000
+current:  min_profit:   7874  weight: 3124492
+entropy: 10.000000
+current:  min_profit:   7874  weight: 3124492
+new best: min_profit:   7874  weight: 3124488
+entropy: 15.000000
+current:  min_profit:   7874  weight: 3124488
+entropy: 10.000000
+current:  min_profit:   7874  weight: 3124488
+new best: min_profit:   7874  weight: 3124418
+entropy: 15.000000
+current:  min_profit:   7874  weight: 3124418
+entropy: 10.000000
+current:  min_profit:   7874  weight: 3124418
+entropy: 7.000000
+current:  min_profit:   7874  weight: 3124418
+new best: min_profit:   7874  weight: 3124397
+entropy: 15.000000
+current:  min_profit:   7874  weight: 3124397
+entropy: 10.000000
+current:  min_profit:   7874  weight: 3124397
+entropy: 7.000000
+current:  min_profit:   7874  weight: 3124397
+new best: min_profit:   7874  weight: 3124234
+entropy: 15.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 10.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 7.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 6.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 6.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 5.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 5.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 5.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 4.000000
+current:  min_profit:   7874  weight: 3124234
+entropy: 4.000000
+current:  min_profit:   7874  weight: 3124234
+new best: min_profit:   7874  weight: 3124074
+entropy: 15.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 10.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 7.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 6.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 6.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 5.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 5.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 5.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 4.000000
+current:  min_profit:   7874  weight: 3124074
+entropy: 4.000000
+current:  min_profit:   7874  weight: 3124074
+best: 7874
+374

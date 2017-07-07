@@ -1,7 +1,3 @@
-seed = 7483837133756842470
--n 0.250000 (NBC multiplier)
--f 1.000000 (NBF multiplier)
--i 0.250000 (NIT multiplier)
 seed = 3782970709629674411
 -n 0.080000 (NBC multiplier)
 -f 1.000000 (NBF multiplier)
