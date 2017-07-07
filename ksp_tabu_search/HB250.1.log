@@ -1,0 +1,45 @@
+seed = 5643757402694992826
+-n 0.040000 (NBC multiplier)
+-f 1.000000 (NBF multiplier)
+-i 0.040000 (NIT multiplier)
+num neighbors = 10
+maxNonImprovingIterations = 10
+n=62500, g=250, c=3125000
+Initial solution found (7445)
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124720
+new best: min_profit:   7445  weight: 3124496
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124496
+entropy: 10.000000
+current:  min_profit:   7445  weight: 3124496
+new best: min_profit:   7445  weight: 3124427
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124427
+entropy: 10.000000
+current:  min_profit:   7445  weight: 3124427
+entropy: 7.000000
+current:  min_profit:   7445  weight: 3124427
+new best: min_profit:   7445  weight: 3124164
+entropy: 15.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 10.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 7.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 6.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 6.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 5.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 5.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 5.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 4.000000
+current:  min_profit:   7445  weight: 3124164
+entropy: 4.000000
+current:  min_profit:   7445  weight: 3124164
+best: 7445
+102
