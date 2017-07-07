@@ -4,7 +4,7 @@ from queue import *
 
 NBC = 1
 NBF = 1
-
+NIT = 1
 class KnapsackSharing:
     capacity = 0
     numItens = 0
@@ -24,11 +24,17 @@ class KnapsackSharingTabuSearch:
     instance = None
     best = None
     bestResult = None
-    def __init__(self, instance):
+    max_neighbors = 1
+    maxNonImpIterations = 10
+    def __init__(self, instance, num_neighbors, maxNonImpIterations):
         self.instance = instance
+        self.max_neighbors = num_neighbors
+        self.maxNonImpIterations = maxNonImpIterations
     def fitness(self, solution):
         group_profit = numpy.zeros(self.instance.numGroups, dtype=numpy.int32)
         total_weigth = 0
+        # for group, goffsets in enumerate(self.instance.groupsOffset):
+        #     group_profit[group] = self.instance.itens[index,2]
         for index in range(self.instance.numItens):
             if solution[index] == 1:
                 group_profit[self.instance.itens[index,2]] += self.instance.itens[index,1]
@@ -38,7 +44,6 @@ class KnapsackSharingTabuSearch:
         return feasable, group_profit[idxMin], total_weigth
     def _generateNeighbors(self, sol, res, entropy):
         local_tabu = set()
-        max_neighbors = math.floor(math.pow(self.instance.numItens,1/2)*NBC)
         # elements_in = PriorityQueue();
         # elements_out = PriorityQueue();
         # for i in range(sol.size):
@@ -47,7 +52,7 @@ class KnapsackSharingTabuSearch:
         #     else:
         #         elements_out.put((item[0]/item[1], i))
         neighbors = []
-        for n in range(max_neighbors):
+        for n in range(self.max_neighbors):
             neighbors.append(self._generateNeighborsFlips(sol, res, local_tabu, entropy))
         # for n in range(max_neighbors//4):
         #     neighbors.append({random.randint(0,self.instance.numItens-1)})
@@ -89,6 +94,7 @@ class KnapsackSharingTabuSearch:
             return True
         return False
     def solve(self):
+        global NIT, NBF
         self.best = numpy.ones(self.instance.numItens,dtype=numpy.int8)
         self.bestResult = self.fitness(self.best)
         if (not self.bestResult[0]):
@@ -100,11 +106,11 @@ class KnapsackSharingTabuSearch:
         curSolutionResult = (True, 0, 0)
         self.tabu = []
         self.tabuset = set()
-        maxNonImpIterations = math.floor(math.pow(self.instance.numItens,1/2)*2)
         nonImprovingIterations = 0
         max_tabu_size = math.floor(math.pow(self.instance.numItens,1/2))
-        while (nonImprovingIterations < maxNonImpIterations):
-            entropy = math.floor(math.log(self.instance.numItens,2+nonImprovingIterations))
+        while (nonImprovingIterations < self.maxNonImpIterations):
+            entropy = math.floor(math.log(self.instance.numItens,2+nonImprovingIterations)*NBF)
+            print ("entropy: %f" % entropy)
             neighbors_flips = self._generateNeighbors(curSolution, curSolutionResult, entropy)
             bestCandidate = None
             bestCandidate_result = None
@@ -146,11 +152,12 @@ class KnapsackSharingTabuSearch:
 
 
 def main(argv):
+    global NBC, NBF, NIT
     inputfile = ''
     outputfile = ''
     seed = random.randint(1, sys.maxsize)
     try:
-        opts, args = getopt.getopt(argv,"s:n:f:",["seed="])
+        opts, args = getopt.getopt(argv,"s:n:f:i:",["seed="])
     except getopt.GetoptError:
         print ("Error(command should be: %s -s <seed>)" % sys.argv[0])
         sys.exit(2)
@@ -161,13 +168,22 @@ def main(argv):
             NBC = float(arg)
         elif opt in ("-f"):
             NBF = float(arg)
+        elif opt in ("-i"):
+            NIT = float(arg)
     print("seed = %s" % seed)
+    print ("-n %f (NBC multiplier)" % NBC)
+    print ("-f %f (NBF multiplier)" % NBF)
+    print ("-i %f (NIT multiplier)" % NIT)
     random.seed(seed)
 
     numItens = int(input())
     numGroups = int(input())
     knapsackCapacity = int(input())
     sizeGroups = list(map(int,input().split()))
+    num_neighbors = math.floor(math.pow(numItens,1/2)*NBC)
+    maxNonImpIterations = math.floor(math.pow(numItens,1/2)*NIT)
+    print ("num neighbors = %d" % num_neighbors)
+    print ("maxNonImprovingIterations = %d" % maxNonImpIterations)
     print ("n=%d, g=%d, c=%d" % (numItens,numGroups,knapsackCapacity))
     currentGroup = 0
     groupBase = 0
@@ -182,7 +198,7 @@ def main(argv):
         aux.append(currentGroup)
         ksp.itens[i] = aux
 
-    solver = KnapsackSharingTabuSearch(ksp)
+    solver = KnapsackSharingTabuSearch(ksp, num_neighbors, maxNonImpIterations)
     t_start = time.time()
     solver.solve()
     t_end = time.time() - t_start
