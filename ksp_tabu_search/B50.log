@@ -1,0 +1,360 @@
+seed = 36514
+n=2500, g=50, c=32416
+Initial solution found (368)
+current:  min_profit:    368  weight:  32382
+new best: min_profit:    368  weight:  32270
+current:  min_profit:    368  weight:  32270
+new best: min_profit:    387  weight:  32341
+current:  min_profit:    387  weight:  32341
+new best: min_profit:    389  weight:  32344
+current:  min_profit:    389  weight:  32344
+new best: min_profit:    393  weight:  32316
+current:  min_profit:    393  weight:  32316
+new best: min_profit:    393  weight:  32230
+current:  min_profit:    393  weight:  32230
+new best: min_profit:    406  weight:  32375
+current:  min_profit:    406  weight:  32375
+new best: min_profit:    407  weight:  32368
+current:  min_profit:    407  weight:  32368
+new best: min_profit:    423  weight:  32331
+current:  min_profit:    423  weight:  32331
+new best: min_profit:    423  weight:  32329
+current:  min_profit:    423  weight:  32329
+new best: min_profit:    423  weight:  32254
+current:  min_profit:    423  weight:  32254
+new best: min_profit:    423  weight:  32203
+current:  min_profit:    423  weight:  32203
+new best: min_profit:    423  weight:  32074
+current:  min_profit:    423  weight:  32074
+new best: min_profit:    423  weight:  31974
+current:  min_profit:    423  weight:  31974
+new best: min_profit:    423  weight:  31883
+current:  min_profit:    423  weight:  31883
+new best: min_profit:    423  weight:  31850
+current:  min_profit:    423  weight:  31850
+new best: min_profit:    423  weight:  31576
+current:  min_profit:    423  weight:  31576
+new best: min_profit:    435  weight:  32017
+current:  min_profit:    435  weight:  32017
+new best: min_profit:    437  weight:  32415
+current:  min_profit:    437  weight:  32415
+new best: min_profit:    439  weight:  32361
+current:  min_profit:    439  weight:  32361
+new best: min_profit:    440  weight:  32326
+current:  min_profit:    440  weight:  32326
+current:  min_profit:    440  weight:  32326
+new best: min_profit:    440  weight:  32250
+current:  min_profit:    440  weight:  32250
+new best: min_profit:    440  weight:  32193
+current:  min_profit:    440  weight:  32193
+new best: min_profit:    440  weight:  32011
+current:  min_profit:    440  weight:  32011
+new best: min_profit:    440  weight:  31886
+current:  min_profit:    440  weight:  31886
+current:  min_profit:    440  weight:  31886
+current:  min_profit:    440  weight:  31886
+new best: min_profit:    440  weight:  31718
+current:  min_profit:    440  weight:  31718
+current:  min_profit:    440  weight:  31718
+new best: min_profit:    440  weight:  31674
+current:  min_profit:    440  weight:  31674
+new best: min_profit:    441  weight:  32357
+current:  min_profit:    441  weight:  32357
+new best: min_profit:    448  weight:  32384
+current:  min_profit:    448  weight:  32384
+new best: min_profit:    448  weight:  32328
+current:  min_profit:    448  weight:  32328
+new best: min_profit:    448  weight:  32168
+current:  min_profit:    448  weight:  32168
+new best: min_profit:    448  weight:  32143
+current:  min_profit:    448  weight:  32143
+new best: min_profit:    448  weight:  32026
+current:  min_profit:    448  weight:  32026
+current:  min_profit:    448  weight:  32026
+new best: min_profit:    448  weight:  32012
+current:  min_profit:    448  weight:  32012
+current:  min_profit:    448  weight:  32012
+current:  min_profit:    448  weight:  32012
+current:  min_profit:    448  weight:  32012
+current:  min_profit:    448  weight:  32012
+new best: min_profit:    448  weight:  31986
+current:  min_profit:    448  weight:  31986
+new best: min_profit:    448  weight:  31932
+current:  min_profit:    448  weight:  31932
+new best: min_profit:    448  weight:  31919
+current:  min_profit:    448  weight:  31919
+new best: min_profit:    448  weight:  31875
+current:  min_profit:    448  weight:  31875
+current:  min_profit:    448  weight:  31875
+current:  min_profit:    448  weight:  31875
+new best: min_profit:    448  weight:  31793
+current:  min_profit:    448  weight:  31793
+current:  min_profit:    448  weight:  31793
+new best: min_profit:    448  weight:  31725
+current:  min_profit:    448  weight:  31725
+new best: min_profit:    448  weight:  31694
+current:  min_profit:    448  weight:  31694
+new best: min_profit:    448  weight:  31666
+current:  min_profit:    448  weight:  31666
+new best: min_profit:    448  weight:  31363
+current:  min_profit:    448  weight:  31363
+current:  min_profit:    448  weight:  31363
+current:  min_profit:    448  weight:  31363
+current:  min_profit:    448  weight:  31363
+new best: min_profit:    448  weight:  31332
+current:  min_profit:    448  weight:  31332
+new best: min_profit:    448  weight:  31232
+current:  min_profit:    448  weight:  31232
+current:  min_profit:    448  weight:  31232
+new best: min_profit:    448  weight:  31225
+current:  min_profit:    448  weight:  31225
+new best: min_profit:    448  weight:  31111
+current:  min_profit:    448  weight:  31111
+new best: min_profit:    448  weight:  31082
+current:  min_profit:    448  weight:  31082
+new best: min_profit:    449  weight:  31437
+current:  min_profit:    449  weight:  31437
+new best: min_profit:    452  weight:  31903
+current:  min_profit:    452  weight:  31903
+new best: min_profit:    453  weight:  32035
+current:  min_profit:    453  weight:  32035
+new best: min_profit:    456  weight:  32202
+current:  min_profit:    456  weight:  32202
+new best: min_profit:    456  weight:  32168
+current:  min_profit:    456  weight:  32168
+new best: min_profit:    457  weight:  32317
+current:  min_profit:    457  weight:  32317
+current:  min_profit:    457  weight:  32317
+current:  min_profit:    457  weight:  32317
+new best: min_profit:    457  weight:  32218
+current:  min_profit:    457  weight:  32218
+new best: min_profit:    457  weight:  32211
+current:  min_profit:    457  weight:  32211
+current:  min_profit:    457  weight:  32211
+current:  min_profit:    457  weight:  32211
+new best: min_profit:    457  weight:  32202
+current:  min_profit:    457  weight:  32202
+current:  min_profit:    457  weight:  32202
+new best: min_profit:    457  weight:  32180
+current:  min_profit:    457  weight:  32180
+current:  min_profit:    457  weight:  32180
+new best: min_profit:    457  weight:  32029
+current:  min_profit:    457  weight:  32029
+new best: min_profit:    457  weight:  32020
+current:  min_profit:    457  weight:  32020
+current:  min_profit:    457  weight:  32020
+current:  min_profit:    457  weight:  32020
+current:  min_profit:    457  weight:  32020
+new best: min_profit:    457  weight:  32018
+current:  min_profit:    457  weight:  32018
+current:  min_profit:    457  weight:  32018
+new best: min_profit:    457  weight:  31978
+current:  min_profit:    457  weight:  31978
+current:  min_profit:    457  weight:  31978
+current:  min_profit:    457  weight:  31978
+current:  min_profit:    457  weight:  31978
+new best: min_profit:    457  weight:  31925
+current:  min_profit:    457  weight:  31925
+current:  min_profit:    457  weight:  31925
+new best: min_profit:    458  weight:  32325
+current:  min_profit:    458  weight:  32325
+current:  min_profit:    458  weight:  32325
+current:  min_profit:    458  weight:  32325
+current:  min_profit:    458  weight:  32325
+new best: min_profit:    459  weight:  32363
+current:  min_profit:    459  weight:  32363
+new best: min_profit:    459  weight:  32288
+current:  min_profit:    459  weight:  32288
+current:  min_profit:    459  weight:  32288
+current:  min_profit:    459  weight:  32288
+current:  min_profit:    459  weight:  32288
+new best: min_profit:    459  weight:  32132
+current:  min_profit:    459  weight:  32132
+current:  min_profit:    459  weight:  32132
+current:  min_profit:    459  weight:  32132
+current:  min_profit:    459  weight:  32132
+current:  min_profit:    459  weight:  32132
+new best: min_profit:    460  weight:  32277
+current:  min_profit:    460  weight:  32277
+current:  min_profit:    460  weight:  32277
+current:  min_profit:    460  weight:  32277
+current:  min_profit:    460  weight:  32277
+new best: min_profit:    460  weight:  32221
+current:  min_profit:    460  weight:  32221
+current:  min_profit:    460  weight:  32221
+current:  min_profit:    460  weight:  32221
+new best: min_profit:    460  weight:  32193
+current:  min_profit:    460  weight:  32193
+current:  min_profit:    460  weight:  32193
+current:  min_profit:    460  weight:  32193
+new best: min_profit:    461  weight:  32398
+current:  min_profit:    461  weight:  32398
+current:  min_profit:    461  weight:  32398
+current:  min_profit:    461  weight:  32398
+current:  min_profit:    461  weight:  32398
+current:  min_profit:    461  weight:  32398
+current:  min_profit:    461  weight:  32398
+current:  min_profit:    461  weight:  32398
+new best: min_profit:    462  weight:  32282
+current:  min_profit:    462  weight:  32282
+current:  min_profit:    462  weight:  32282
+current:  min_profit:    462  weight:  32282
+current:  min_profit:    462  weight:  32282
+new best: min_profit:    462  weight:  32128
+current:  min_profit:    462  weight:  32128
+current:  min_profit:    462  weight:  32128
+current:  min_profit:    462  weight:  32128
+current:  min_profit:    462  weight:  32128
+current:  min_profit:    462  weight:  32128
+current:  min_profit:    462  weight:  32128
+current:  min_profit:    462  weight:  32128
+new best: min_profit:    462  weight:  32118
+current:  min_profit:    462  weight:  32118
+current:  min_profit:    462  weight:  32118
+current:  min_profit:    462  weight:  32118
+current:  min_profit:    462  weight:  32118
+current:  min_profit:    462  weight:  32118
+current:  min_profit:    462  weight:  32118
+current:  min_profit:    462  weight:  32118
+new best: min_profit:    462  weight:  32051
+current:  min_profit:    462  weight:  32051
+current:  min_profit:    462  weight:  32051
+current:  min_profit:    462  weight:  32051
+current:  min_profit:    462  weight:  32051
+current:  min_profit:    462  weight:  32051
+current:  min_profit:    462  weight:  32051
+new best: min_profit:    462  weight:  32011
+current:  min_profit:    462  weight:  32011
+new best: min_profit:    462  weight:  31963
+current:  min_profit:    462  weight:  31963
+current:  min_profit:    462  weight:  31963
+new best: min_profit:    464  weight:  32359
+current:  min_profit:    464  weight:  32359
+new best: min_profit:    465  weight:  32392
+current:  min_profit:    465  weight:  32392
+new best: min_profit:    465  weight:  32362
+current:  min_profit:    465  weight:  32362
+new best: min_profit:    465  weight:  32330
+current:  min_profit:    465  weight:  32330
+new best: min_profit:    465  weight:  32254
+current:  min_profit:    465  weight:  32254
+new best: min_profit:    465  weight:  32020
+current:  min_profit:    465  weight:  32020
+new best: min_profit:    466  weight:  32383
+current:  min_profit:    466  weight:  32383
+new best: min_profit:    466  weight:  32364
+current:  min_profit:    466  weight:  32364
+new best: min_profit:    466  weight:  32351
+current:  min_profit:    466  weight:  32351
+current:  min_profit:    466  weight:  32351
+new best: min_profit:    466  weight:  32345
+current:  min_profit:    466  weight:  32345
+current:  min_profit:    466  weight:  32345
+current:  min_profit:    466  weight:  32345
+current:  min_profit:    466  weight:  32345
+current:  min_profit:    466  weight:  32345
+current:  min_profit:    466  weight:  32345
+current:  min_profit:    466  weight:  32345
+new best: min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+current:  min_profit:    466  weight:  32324
+best: 466
+213

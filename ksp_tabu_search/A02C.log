@@ -1,0 +1,665 @@
+seed = 390721961868260122
+-n 2.000000 (NBC multiplier)
+-f 1.500000 (NBF multiplier)
+-i 2.000000 (NIT multiplier)
+num neighbors = 63
+maxNonImprovingIterations = 63
+n=1000, g=2, c=12805
+Initial solution found (188)
+entropy: 14.000000
+current:  min_profit:    188  weight:  12800
+new best: min_profit:    234  weight:  12769
+entropy: 14.000000
+current:  min_profit:    234  weight:  12769
+new best: min_profit:    283  weight:  12785
+entropy: 14.000000
+current:  min_profit:    283  weight:  12785
+new best: min_profit:    313  weight:  12732
+entropy: 14.000000
+current:  min_profit:    313  weight:  12732
+new best: min_profit:    340  weight:  12791
+entropy: 14.000000
+current:  min_profit:    340  weight:  12791
+new best: min_profit:    352  weight:  12710
+entropy: 14.000000
+current:  min_profit:    352  weight:  12710
+new best: min_profit:    370  weight:  12756
+entropy: 14.000000
+current:  min_profit:    370  weight:  12756
+new best: min_profit:    427  weight:  12767
+entropy: 14.000000
+current:  min_profit:    427  weight:  12767
+new best: min_profit:    438  weight:  12788
+entropy: 14.000000
+current:  min_profit:    438  weight:  12788
+new best: min_profit:    459  weight:  12720
+entropy: 14.000000
+current:  min_profit:    459  weight:  12720
+new best: min_profit:    477  weight:  12759
+entropy: 14.000000
+current:  min_profit:    477  weight:  12759
+new best: min_profit:    494  weight:  12715
+entropy: 14.000000
+current:  min_profit:    494  weight:  12715
+new best: min_profit:    528  weight:  12706
+entropy: 14.000000
+current:  min_profit:    528  weight:  12706
+new best: min_profit:    548  weight:  12798
+entropy: 14.000000
+current:  min_profit:    548  weight:  12798
+entropy: 9.000000
+current:  min_profit:    548  weight:  12798
+new best: min_profit:    555  weight:  12727
+entropy: 14.000000
+current:  min_profit:    555  weight:  12727
+new best: min_profit:    574  weight:  12773
+entropy: 14.000000
+current:  min_profit:    574  weight:  12773
+new best: min_profit:    594  weight:  12795
+entropy: 14.000000
+current:  min_profit:    594  weight:  12795
+new best: min_profit:    594  weight:  12691
+entropy: 14.000000
+current:  min_profit:    594  weight:  12691
+new best: min_profit:    608  weight:  12722
+entropy: 14.000000
+current:  min_profit:    608  weight:  12722
+new best: min_profit:    634  weight:  12771
+entropy: 14.000000
+current:  min_profit:    634  weight:  12771
+new best: min_profit:    647  weight:  12703
+entropy: 14.000000
+current:  min_profit:    647  weight:  12703
+new best: min_profit:    665  weight:  12735
+entropy: 14.000000
+current:  min_profit:    665  weight:  12735
+new best: min_profit:    682  weight:  12768
+entropy: 14.000000
+current:  min_profit:    682  weight:  12768
+new best: min_profit:    701  weight:  12718
+entropy: 14.000000
+current:  min_profit:    701  weight:  12718
+new best: min_profit:    719  weight:  12748
+entropy: 14.000000
+current:  min_profit:    719  weight:  12748
+new best: min_profit:    749  weight:  12701
+entropy: 14.000000
+current:  min_profit:    749  weight:  12701
+new best: min_profit:    769  weight:  12758
+entropy: 14.000000
+current:  min_profit:    769  weight:  12758
+new best: min_profit:    779  weight:  12762
+entropy: 14.000000
+current:  min_profit:    779  weight:  12762
+new best: min_profit:    790  weight:  12785
+entropy: 14.000000
+current:  min_profit:    790  weight:  12785
+new best: min_profit:    791  weight:  12803
+entropy: 14.000000
+current:  min_profit:    791  weight:  12803
+new best: min_profit:    795  weight:  12700
+entropy: 14.000000
+current:  min_profit:    795  weight:  12700
+new best: min_profit:    810  weight:  12784
+entropy: 14.000000
+current:  min_profit:    810  weight:  12784
+new best: min_profit:    850  weight:  12802
+entropy: 14.000000
+current:  min_profit:    850  weight:  12802
+entropy: 9.000000
+current:  min_profit:    850  weight:  12802
+entropy: 7.000000
+current:  min_profit:    850  weight:  12802
+new best: min_profit:    881  weight:  12764
+entropy: 14.000000
+current:  min_profit:    881  weight:  12764
+entropy: 9.000000
+current:  min_profit:    881  weight:  12764
+entropy: 7.000000
+current:  min_profit:    881  weight:  12764
+new best: min_profit:    887  weight:  12785
+entropy: 14.000000
+current:  min_profit:    887  weight:  12785
+new best: min_profit:    888  weight:  12802
+entropy: 14.000000
+current:  min_profit:    888  weight:  12802
+new best: min_profit:    891  weight:  12791
+entropy: 14.000000
+current:  min_profit:    891  weight:  12791
+new best: min_profit:    899  weight:  12714
+entropy: 14.000000
+current:  min_profit:    899  weight:  12714
+new best: min_profit:    902  weight:  12706
+entropy: 14.000000
+current:  min_profit:    902  weight:  12706
+entropy: 9.000000
+current:  min_profit:    902  weight:  12706
+entropy: 7.000000
+current:  min_profit:    902  weight:  12706
+entropy: 6.000000
+current:  min_profit:    902  weight:  12706
+new best: min_profit:    915  weight:  12739
+entropy: 14.000000
+current:  min_profit:    915  weight:  12739
+entropy: 9.000000
+current:  min_profit:    915  weight:  12739
+new best: min_profit:    930  weight:  12763
+entropy: 14.000000
+current:  min_profit:    930  weight:  12763
+entropy: 9.000000
+current:  min_profit:    930  weight:  12763
+new best: min_profit:    932  weight:  12770
+entropy: 14.000000
+current:  min_profit:    932  weight:  12770
+new best: min_profit:    935  weight:  12784
+entropy: 14.000000
+current:  min_profit:    935  weight:  12784
+new best: min_profit:    940  weight:  12796
+entropy: 14.000000
+current:  min_profit:    940  weight:  12796
+new best: min_profit:    941  weight:  12791
+entropy: 14.000000
+current:  min_profit:    941  weight:  12791
+entropy: 9.000000
+current:  min_profit:    941  weight:  12791
+entropy: 7.000000
+current:  min_profit:    941  weight:  12791
+entropy: 6.000000
+current:  min_profit:    941  weight:  12791
+new best: min_profit:    941  weight:  12783
+entropy: 14.000000
+current:  min_profit:    941  weight:  12783
+new best: min_profit:    947  weight:  12796
+entropy: 14.000000
+current:  min_profit:    947  weight:  12796
+entropy: 9.000000
+current:  min_profit:    947  weight:  12796
+new best: min_profit:    949  weight:  12803
+entropy: 14.000000
+current:  min_profit:    949  weight:  12803
+entropy: 9.000000
+current:  min_profit:    949  weight:  12803
+entropy: 7.000000
+current:  min_profit:    949  weight:  12803
+entropy: 6.000000
+current:  min_profit:    949  weight:  12803
+entropy: 5.000000
+current:  min_profit:    949  weight:  12803
+entropy: 5.000000
+current:  min_profit:    949  weight:  12803
+entropy: 4.000000
+current:  min_profit:    949  weight:  12803
+entropy: 4.000000
+current:  min_profit:    949  weight:  12803
+new best: min_profit:    949  weight:  12802
+entropy: 14.000000
+current:  min_profit:    949  weight:  12802
+entropy: 9.000000
+current:  min_profit:    949  weight:  12802
+entropy: 7.000000
+current:  min_profit:    949  weight:  12802
+entropy: 6.000000
+current:  min_profit:    949  weight:  12802
+entropy: 5.000000
+current:  min_profit:    949  weight:  12802
+entropy: 5.000000
+current:  min_profit:    949  weight:  12802
+entropy: 4.000000
+current:  min_profit:    949  weight:  12802
+new best: min_profit:    950  weight:  12800
+entropy: 14.000000
+current:  min_profit:    950  weight:  12800
+new best: min_profit:    955  weight:  12738
+entropy: 14.000000
+current:  min_profit:    955  weight:  12738
+entropy: 9.000000
+current:  min_profit:    955  weight:  12738
+entropy: 7.000000
+current:  min_profit:    955  weight:  12738
+entropy: 6.000000
+current:  min_profit:    955  weight:  12738
+entropy: 5.000000
+current:  min_profit:    955  weight:  12738
+entropy: 5.000000
+current:  min_profit:    955  weight:  12738
+entropy: 4.000000
+current:  min_profit:    955  weight:  12738
+entropy: 4.000000
+current:  min_profit:    955  weight:  12738
+entropy: 4.000000
+current:  min_profit:    955  weight:  12738
+new best: min_profit:    964  weight:  12744
+entropy: 14.000000
+current:  min_profit:    964  weight:  12744
+entropy: 9.000000
+current:  min_profit:    964  weight:  12744
+new best: min_profit:    968  weight:  12738
+entropy: 14.000000
+current:  min_profit:    968  weight:  12738
+entropy: 9.000000
+current:  min_profit:    968  weight:  12738
+entropy: 7.000000
+current:  min_profit:    968  weight:  12738
+entropy: 6.000000
+current:  min_profit:    968  weight:  12738
+new best: min_profit:    983  weight:  12767
+entropy: 14.000000
+current:  min_profit:    983  weight:  12767
+entropy: 9.000000
+current:  min_profit:    983  weight:  12767
+entropy: 7.000000
+current:  min_profit:    983  weight:  12767
+entropy: 6.000000
+current:  min_profit:    983  weight:  12767
+new best: min_profit:    991  weight:  12688
+entropy: 14.000000
+current:  min_profit:    991  weight:  12688
+new best: min_profit:    995  weight:  12793
+entropy: 14.000000
+current:  min_profit:    995  weight:  12793
+entropy: 9.000000
+current:  min_profit:    995  weight:  12793
+entropy: 7.000000
+current:  min_profit:    995  weight:  12793
+new best: min_profit:   1002  weight:  12805
+entropy: 14.000000
+current:  min_profit:   1002  weight:  12805
+entropy: 9.000000
+current:  min_profit:   1002  weight:  12805
+entropy: 7.000000
+current:  min_profit:   1002  weight:  12805
+entropy: 6.000000
+current:  min_profit:   1002  weight:  12805
+new best: min_profit:   1020  weight:  12744
+entropy: 14.000000
+current:  min_profit:   1020  weight:  12744
+new best: min_profit:   1021  weight:  12751
+entropy: 14.000000
+current:  min_profit:   1021  weight:  12751
+entropy: 9.000000
+current:  min_profit:   1021  weight:  12751
+entropy: 7.000000
+current:  min_profit:   1021  weight:  12751
+new best: min_profit:   1036  weight:  12774
+entropy: 14.000000
+current:  min_profit:   1036  weight:  12774
+entropy: 9.000000
+current:  min_profit:   1036  weight:  12774
+entropy: 7.000000
+current:  min_profit:   1036  weight:  12774
+entropy: 6.000000
+current:  min_profit:   1036  weight:  12774
+new best: min_profit:   1040  weight:  12790
+entropy: 14.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 9.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 7.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 6.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 5.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 5.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 4.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 4.000000
+current:  min_profit:   1040  weight:  12790
+entropy: 4.000000
+current:  min_profit:   1040  weight:  12790
+new best: min_profit:   1044  weight:  12794
+entropy: 14.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 9.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 7.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 6.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 5.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 5.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 4.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 4.000000
+current:  min_profit:   1044  weight:  12794
+entropy: 4.000000
+current:  min_profit:   1044  weight:  12794
+new best: min_profit:   1048  weight:  12804
+entropy: 14.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 9.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 7.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 6.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 5.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 5.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 4.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 4.000000
+current:  min_profit:   1048  weight:  12804
+entropy: 4.000000
+current:  min_profit:   1048  weight:  12804
+new best: min_profit:   1049  weight:  12800
+entropy: 14.000000
+current:  min_profit:   1049  weight:  12800
+entropy: 9.000000
+current:  min_profit:   1049  weight:  12800
+entropy: 7.000000
+current:  min_profit:   1049  weight:  12800
+entropy: 6.000000
+current:  min_profit:   1049  weight:  12800
+entropy: 5.000000
+current:  min_profit:   1049  weight:  12800
+entropy: 5.000000
+current:  min_profit:   1049  weight:  12800
+new best: min_profit:   1058  weight:  12721
+entropy: 14.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 9.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 7.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 6.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 5.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 5.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 4.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 4.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 4.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 4.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 4.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 4.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+entropy: 3.000000
+current:  min_profit:   1058  weight:  12721
+new best: min_profit:   1069  weight:  12747
+entropy: 14.000000
+current:  min_profit:   1069  weight:  12747
+entropy: 9.000000
+current:  min_profit:   1069  weight:  12747
+entropy: 7.000000
+current:  min_profit:   1069  weight:  12747
+new best: min_profit:   1081  weight:  12762
+entropy: 14.000000
+current:  min_profit:   1081  weight:  12762
+entropy: 9.000000
+current:  min_profit:   1081  weight:  12762
+entropy: 7.000000
+current:  min_profit:   1081  weight:  12762
+entropy: 6.000000
+current:  min_profit:   1081  weight:  12762
+entropy: 5.000000
+current:  min_profit:   1081  weight:  12762
+new best: min_profit:   1089  weight:  12794
+entropy: 14.000000
+current:  min_profit:   1089  weight:  12794
+entropy: 9.000000
+current:  min_profit:   1089  weight:  12794
+entropy: 7.000000
+current:  min_profit:   1089  weight:  12794
+entropy: 6.000000
+current:  min_profit:   1089  weight:  12794
+entropy: 5.000000
+current:  min_profit:   1089  weight:  12794
+entropy: 5.000000
+current:  min_profit:   1089  weight:  12794
+entropy: 4.000000
+current:  min_profit:   1089  weight:  12794
+new best: min_profit:   1090  weight:  12786
+entropy: 14.000000
+current:  min_profit:   1090  weight:  12786
+entropy: 9.000000
+current:  min_profit:   1090  weight:  12786
+entropy: 7.000000
+current:  min_profit:   1090  weight:  12786
+entropy: 6.000000
+current:  min_profit:   1090  weight:  12786
+entropy: 5.000000
+current:  min_profit:   1090  weight:  12786
+entropy: 5.000000
+current:  min_profit:   1090  weight:  12786
+entropy: 4.000000
+current:  min_profit:   1090  weight:  12786
+new best: min_profit:   1101  weight:  12805
+entropy: 14.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 9.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 7.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 6.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 5.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 5.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 4.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 4.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 4.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 4.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 4.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 4.000000
+current:  min_profit:   1101  weight:  12805
+entropy: 3.000000
+current:  min_profit:   1101  weight:  12805
+new best: min_profit:   1102  weight:  12805
+entropy: 14.000000
+current:  min_profit:   1102  weight:  12805
+entropy: 9.000000
+current:  min_profit:   1102  weight:  12805
+new best: min_profit:   1104  weight:  12728
+entropy: 14.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 9.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 7.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 6.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 5.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 5.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 4.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 4.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 4.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 4.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 4.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 4.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 3.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 3.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 3.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 3.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 3.000000
+current:  min_profit:   1104  weight:  12728
+entropy: 3.000000
+current:  min_profit:   1104  weight:  12728
+new best: min_profit:   1107  weight:  12725
+entropy: 14.000000
+current:  min_profit:   1107  weight:  12725
+entropy: 9.000000
+current:  min_profit:   1107  weight:  12725
+entropy: 7.000000
+current:  min_profit:   1107  weight:  12725
+entropy: 6.000000
+current:  min_profit:   1107  weight:  12725
+entropy: 5.000000
+current:  min_profit:   1107  weight:  12725
+entropy: 5.000000
+current:  min_profit:   1107  weight:  12725
+entropy: 4.000000
+current:  min_profit:   1107  weight:  12725
+new best: min_profit:   1117  weight:  12742
+entropy: 14.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 9.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 7.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 6.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 5.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 5.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 4.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 4.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 4.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 4.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 4.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 4.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 3.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+entropy: 2.000000
+current:  min_profit:   1117  weight:  12742
+best: 1117
+171
